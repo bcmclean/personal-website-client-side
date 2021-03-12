@@ -6,125 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link h<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></head>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <lin<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"></head>    
-    <div class="announcement-bar">
-        <div class="container">
-            <nav class="site-nav">
-                <a class="active" href="#section1">About Me</a>
-                <a href="#section2">Resume</a>
-                <a href="#section3">Cover Letter</a>
-                <a href="#section4">Projects</a>
-                <a href="#section5">Hobbies</a>
-                <a href="#section6">Contact</a>
-            </nav>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>    
 
-            <div class="personal-picture"><img class="personal-profile__avatar" src="img/thumbnail_headshot.jpg" alt="avatar"></div>
-            <div class="personal-details">
-                <h1 class="name">Jennifer McLean</h1>
-                <p class="details">Computer Science Student | 2021 Graduate </p>
-                <div class="social-media">
-                    <div class="sm-buttons"><a href="https://www.linkedin.com/in/jennifer-mclean-068061107/" class="fa fa-linkedin"></a></div>
-                    <div class="sm-buttons"><a href="https://www.linkedin.com/in/jennifer-mclean-068061107/" class="fa fa-github"></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<body>
+
+    <div class="announcement-bar" id="header"></div>
 
     <div class="sections">
 
-        <section id="section1">
-            <div class="about-me"> 
-                <h4 class="about-me-title">About Me</h4>
-                <p class="about-me-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque nibh, vestibulum in laoreet molestie, imperdiet ac tellus. Donec dapibus enim at massa porta ultricies. Nam sodales porta dui ac eleifend. Sed aliquam, nulla et suscipit egestas, lorem libero ultricies leo, nec scelerisque lorem lectus eget dolor. Nulla quis ante mattis, lacinia metus non, dignissim mauris. Nunc a dolor sed elit mollis ornare. In pulvinar nisi vel sem tristique, ac iaculis erat tempus. Maecenas feugiat turpis urna, eu faucibus nibh tristique non. Fusce elementum laoreet lectus, eu feugiat leo lacinia vitae. Duis euismod leo sed quam tristique, in euismod magna fringilla. Donec auctor elit mi, sed sagittis ex pretium eget. Mauris posuere nunc quis magna condimentum, aliquet facilisis turpis volutpat. Nam nec elit sit amet est eleifend blandit nec non diam. Aenean vehicula arcu lorem, convallis lacinia dolor tincidunt at.</p>
-            </div>
-        </section>
+        <section class="about-me"></section>
 
-        <section id="section2">
-
+        <section class="experience" id="section1">
             <h4 class="resume-title">Resume</h4>
-
-            <div id="resume">
-            </div>
+            <div id="resume"></div>
             <script src="js/index.js"></script>
-
         </section>
 
-        <section id="section3">
-        
-        </section>
+        <section class="cover-letter" id="section2"></section>
 
-        <section id="section4">
-            <h4 class="projects-title">Projects</h4>
+        <section class="projects" id="section3"></section>
 
-            <div class="wrapper">
-                <div class="buttonWrapper">
-                  <button class="tab-button active" style="border-top-left-radius: 10px;" data-id="title-therapist">Therapist Jen</button>
-                  <button class="tab-button" data-id="title-maintenance">Maintenance App</button>
-                  <button class="tab-button" style="border-top-right-radius: 10px;" data-id="title-store">Online Store</button>
-                </div>
-                <div class="contentWrapper">
-                </div>
-                <div class="tabs-content">
-                    <div class="content active" id="title-therapist">
-                        <p id="app-description">
-                            Therapist Jen is a ChatBot that is designed to help users work through negative thoughts and feelings.
-                             It is based on Cognitive Behavioural Therapy techniques. Not only does it provide users with an outlet
-                              to express their negative emotions, but it also encourages users to create and work towards positive 
-                              goals. This tool does not replace professional therapy, but is designed to work alongside it. 
-                        </p>
-                        <div class="therapist-image-container">
-                            <img id="therapist-jen-img" src="img/therapist-jen-image.png" alt="therapist-jen">
-                        </div>
-                        <h4 class="tab-titles">Tools Used:</h4>
-                        <ul class="skills"> 
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                            <li>SQL</li>
-                        </ul>
-                        <div class="video-buttons-container">
-                            <div class="video-buttons">
-                                <a href="https://youtu.be/hdk92ivJGCg" class="video-demos" target="_blank">Video Demo</a>
-                                <a href="https://github.com/bcmclean/TherapistJen" class="video-demos" target="_blank">Code</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="content" id="title-maintenance">
-                        <p id="app-description">
-                            The Maintenance Report App is an Android application that was designed with the University of British Columbia’s Okanagan Campus in mind. The app’s purpose is to create a convenient app where students, faculty, or guests could quickly report maintenance issues around campus (such as lights not working, no toilet paper in the bathroom, etc). The app is meant to handle reports from both guest users and users who want to login with their CWL.</p>
-                        <div class="therapist-image-container">
-                            <img id="therapist-jen-img" src="img/maintenance-app.png" alt="therapist-jen">
-                        </div>
-                        <h4 class="tab-titles">Tools Used:</h4>
-                        <ul class="skills"> 
-                            <li>Java</li>
-                            <li>Android Studio</li>
-                        </ul>
-                        <div class="video-buttons-container">
-                            <div class="video-buttons">
-                                <a href="https://youtu.be/FVUJy67D9AI" class="video-demos" target="_blank">Video Demo</a>
-                                <a href="https://github.com/bcmclean/TherapistJen" class="video-demos" target="_blank">Code</a>
-                            </div>
-    </div>
+        <section class="hobbies" id="section4"></section>
+
+        <section class="contact" id="section5"></section>
 
     </div>
+
 </body>
 </html>
-    
-<script src="js/tabs.js"></script>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 <script type="text/javascript" >
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
@@ -133,4 +48,21 @@
         scrollTop: $($.attr(this, 'href')).offset().top
     }, 500);
   });
+
+  $(function(){
+      $("#header").load("components/header.html"); 
+    });
+
+    $(function(){
+      $(".about-me").load("components/about-me.html"); 
+    });
+
+    $(function(){
+      $(".hobbies").load("components/hobbies.html"); 
+    });
+
+    $(function(){
+      $(".projects").load("components/projects.html"); 
+    });
+
 </script>
